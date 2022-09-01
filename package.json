@@ -1,21 +1,13 @@
 {
-    "name": "@blockcore/explorer",
-    "version": "1.0.3",
-    "description": "blockcore-explorer -  Cross-Chain Multi-Chain Block Explorer ",
+    "name": "x42-exploere",
+    "version": "0.0.1",
+    "description": "x42-explorer - Block Explorer ",
     "license": "MIT",
     "author": {
-        "name": "Blockcore",
-        "email": "post@blockcore.net",
-        "url": "https://www.blockcore.net"
+        "name": "x42",
+        "email": "post@x42.tech",
+        "url": "https://www.x42.tech"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/seniorblockchain/blockcore-explorer2.git"
-    },
-    "bugs": {
-        "url": "https://github.com/seniorblockchain/blockcore-explorer2/issues"
-    },
-    "homepage": "https://github.com/seniorblockchain/blockcore-explorer2#readme",
     "private": true,
     "scripts": {
         "ng": "ng",

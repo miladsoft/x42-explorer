@@ -11,8 +11,8 @@ export const appRoutes: Route[] = [
 
 
     // Redirect empty path to '/blockcore'
-    { path: '', pathMatch: 'full', redirectTo: 'blockcore' },
-    { path: 'blockcore', pathMatch: 'full', redirectTo: 'blockcore' },
+    { path: '', pathMatch: 'full', redirectTo: 'x42' },
+    { path: 'x42', pathMatch: 'full', redirectTo: 'x42' },
     { path: ':chain', pathMatch: 'full', redirectTo: ':chain/explorer' },
     { path: ':chain/blockcore', pathMatch: 'full', redirectTo: 'blockcore' },
 
@@ -25,7 +25,7 @@ export const appRoutes: Route[] = [
             chain: InitialDataResolver,
         },
         children: [
-            { path: 'blockcore', loadChildren: () => import('app/modules/home/home.module').then(m => m.HomeModule) },
+            { path: 'x42', loadChildren: () => import('app/modules/explorer/explorer.module').then(m => m.ExplorerModule) },
         ]
     },
     // ticker routes

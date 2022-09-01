@@ -2,13 +2,7 @@
 import { blockcoreNavigationItem } from '@blockcore/components/navigation';
 
 export const defaultNavigation: blockcoreNavigationItem[] = [
-    {
-        id: 'home',
-        title: 'Home',
-        type: 'basic',
-        icon: 'heroicons_outline:home',
-        link: 'blockcore'
-    },
+
     {
         id: 'explorer',
         title: 'explorer',
@@ -46,13 +40,7 @@ export const defaultNavigation: blockcoreNavigationItem[] = [
     }
 ];
 export const compactNavigation: blockcoreNavigationItem[] = [
-    {
-        id: 'home',
-        title: 'Home',
-        type: 'basic',
-        icon: 'heroicons_outline:home',
-        link: 'blockcore'
-    },
+
     {
         id: 'explorer',
         title: 'explorer',
@@ -90,13 +78,7 @@ export const compactNavigation: blockcoreNavigationItem[] = [
     }
 ];
 export const futuristicNavigation: blockcoreNavigationItem[] = [
-    {
-        id: 'home',
-        title: 'Home',
-        type: 'basic',
-        icon: 'heroicons_outline:home',
-        link: '/blockcore'
-    },
+
     {
         id: 'explorer',
         title: 'explorer',
@@ -134,13 +116,7 @@ export const futuristicNavigation: blockcoreNavigationItem[] = [
     }
 ];
 export const horizontalNavigation: blockcoreNavigationItem[] = [
-    {
-        id: 'home',
-        title: 'Home',
-        type: 'basic',
-        icon: 'heroicons_outline:home',
-        link: 'blockcore'
-    },
+
     {
         id: 'explorer',
         title: 'explorer',
