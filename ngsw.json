@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1662026265410,
+  "timestamp": 1662709463319,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -176,7 +176,7 @@
     "/assets/images/logos/btc.jpg": "9c6fe9b5f3dfb8d949e81c1c8ad2482bfdba3987",
     "/assets/styles/splash-screen.css": "d9dd2b940a21d9494d76a4e3b7acc78a86d90f96",
     "/common.1a693a343dbaf7bc.js": "180d353a2669d51a9b196f27ce13103f2350b22c",
-    "/index.html": "c762a7d473fa59ba0156c076c9999cc90f2d5bca",
+    "/index.html": "bfbf515dbeffd65f18097cda845d086da4b84b56",
     "/main.642d503a020a91e6.js": "3cfcb95c6dbf536a02e1ced008874fb63cd616d3",
     "/manifest.webmanifest": "23daeb5ca359bff686a52bf59535d5111e99745c",
     "/polyfills.811a4b6acb51e998.js": "47a4a286f58fe15431d5aeff9a21ed98ceceb332",
