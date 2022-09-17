@@ -1,6 +1,6 @@
 <p align="center">
   <p align="center">
-    <img src="https://x42serverui.seniorblockchain.io/assets/images/xserver-anim.svg" height="100" alt="Blockcore" />
+    <img src="https://x42serverui.seniorblockchain.io/assets/images/xserver-anim.svg" height="100" alt="x42" />
   </p>
   <h3 align="center">
     About Blockcore Explorer
