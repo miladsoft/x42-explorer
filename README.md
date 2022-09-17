@@ -1,9 +1,9 @@
 <p align="center">
   <p align="center">
-    <img src="https://x42serverui.seniorblockchain.io/assets/images/xserver-anim.svg" height="100" alt="x42" />
+    <img src="xserver-anim.svg" height="100" alt="x42" />
   </p>
   <h3 align="center">
-    About Blockcore Explorer
+    About X42 Explorer
   </h3>
   <p align="center">
     Cross-Chain Multi-Chain Block Explorer
@@ -13,7 +13,7 @@
   <p align="center">"This explorer is ... amazing man. So fast (by far the fastest for me) and complete"</p>
 </p>
 
-# 🔍 Blockcore Explorer
+# 🔍 X42 Explorer
 
 The Blockcore Explorer is a cross-chain block explorer that can also run in a multi-chain mode. Individual chains that builds on Blockcore, can run this explorer for their own chain, without the multi-chain capability.
 
