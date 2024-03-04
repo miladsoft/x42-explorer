@@ -106,10 +106,10 @@
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "configurations": {
                         "production": {
-                            "browserTarget": "blockcore:build:production"
+                          "buildTarget": "blockcore:build:production"
                         },
                         "development": {
-                            "browserTarget": "blockcore:build:development"
+                          "buildTarget": "blockcore:build:development"
                         }
                     },
                     "defaultConfiguration": "development",
@@ -118,7 +118,7 @@
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                        "browserTarget": "blockcore:build"
+                      "buildTarget": "blockcore:build"
                     }
                 },
                 "test": {
@@ -152,6 +152,5 @@
                 }
             }
         }
-    },
-    "defaultProject": "blockcore"
+    }
 }
