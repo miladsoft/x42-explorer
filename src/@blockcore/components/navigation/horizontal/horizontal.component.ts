@@ -17,7 +17,7 @@ import { blockcoreUtilsService } from '@blockcore/services/utils/utils.service';
 })
 export class blockcoreHorizontalNavigationComponent implements OnChanges, OnInit, OnDestroy
 {
-    @Input() name: string = this._blockcoreUtilsService.randomId();
+    @Input() name: string;
     @Input() navigation: blockcoreNavigationItem[];
 
     onRefreshed: ReplaySubject<boolean> = new ReplaySubject<boolean>(1);
@@ -32,6 +32,7 @@ export class blockcoreHorizontalNavigationComponent implements OnChanges, OnInit
         private _blockcoreUtilsService: blockcoreUtilsService
     )
     {
+        this.name = this._blockcoreUtilsService.randomId();
     }
 
     // -----------------------------------------------------------------------------------------------------

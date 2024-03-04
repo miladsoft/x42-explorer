@@ -23,7 +23,7 @@ export class blockcoreDrawerComponent implements OnChanges, OnInit, OnDestroy
 
     @Input() fixed: boolean = false;
     @Input() mode: blockcoreDrawerMode = 'side';
-    @Input() name: string = this._blockcoreUtilsService.randomId();
+    @Input() name: string;
     @Input() opened: boolean = false;
     @Input() position: blockcoreDrawerPosition = 'left';
     @Input() transparentOverlay: boolean = false;
@@ -48,6 +48,7 @@ export class blockcoreDrawerComponent implements OnChanges, OnInit, OnDestroy
         private _blockcoreUtilsService: blockcoreUtilsService
     )
     {
+        this.name = this._blockcoreUtilsService.randomId();
     }
 
     // -----------------------------------------------------------------------------------------------------

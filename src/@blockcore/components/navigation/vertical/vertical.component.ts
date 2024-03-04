@@ -32,7 +32,7 @@ export class blockcoreVerticalNavigationComponent implements OnChanges, OnInit, 
     @Input() autoCollapse: boolean = true;
     @Input() inner: boolean = false;
     @Input() mode: blockcoreVerticalNavigationMode = 'side';
-    @Input() name: string = this._blockcoreUtilsService.randomId();
+    @Input() name: string;
     @Input() navigation: blockcoreNavigationItem[];
     @Input() opened: boolean = true;
     @Input() position: blockcoreVerticalNavigationPosition = 'left';
@@ -54,7 +54,7 @@ export class blockcoreVerticalNavigationComponent implements OnChanges, OnInit, 
     private _hovered: boolean = false;
     private _overlay: HTMLElement;
     private _player: AnimationPlayer;
-    private _scrollStrategy: ScrollStrategy = this._scrollStrategyOptions.block();
+    private _scrollStrategy: ScrollStrategy;
     private _blockcoreScrollbarDirectives!: QueryList<blockcoreScrollbarDirective>;
     private _blockcoreScrollbarDirectivesSubscription: Subscription;
     private _unsubscribeAll: Subject<any> = new Subject<any>();
@@ -79,6 +79,9 @@ export class blockcoreVerticalNavigationComponent implements OnChanges, OnInit, 
         this._handleOverlayClick = (): void => {
             this.close();
         };
+
+        this.name = this._blockcoreUtilsService.randomId();
+        this._scrollStrategy = this._scrollStrategyOptions.block();
     }
 
     // -----------------------------------------------------------------------------------------------------
