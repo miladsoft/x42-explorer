@@ -59,7 +59,7 @@
     "@angular-eslint/eslint-plugin-template": "14.0.2",
     "@angular-eslint/schematics": "14.0.2",
     "@angular-eslint/template-parser": "14.0.2",
-    "@angular/cli": "15.2.10",
+    "@angular/cli": "^16.2.12",
     "@angular/compiler-cli": "15.2.10",
     "@tailwindcss/aspect-ratio": "0.4.0",
     "@tailwindcss/line-clamp": "0.4.0",
