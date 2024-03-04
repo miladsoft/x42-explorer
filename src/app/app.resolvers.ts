@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { ActivatedRouteSnapshot, Resolve, RouterStateSnapshot } from '@angular/router';
+import { ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/router';
 import { forkJoin, Observable } from 'rxjs';
 import { NavigationService } from 'app/core/navigation/navigation.service';
 import { CoinService } from 'app/core/coin/coin.service';
@@ -12,7 +12,7 @@ import { environment } from '../../src/environments/environment';
 
 
 
-export class InitialDataResolver implements Resolve<any>
+export class InitialDataResolver 
 {
     /**
      * Constructor
