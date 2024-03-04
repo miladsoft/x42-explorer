@@ -53,7 +53,7 @@ async search() {
             // tslint:disable-next-line: radix
             const index = parseInt(text, 10);
 
-            if (index !== NaN && index > 0) {
+            if (!isNaN(index) && index > 0) {
                 this.router.navigate([this.setup.current, 'explorer', 'block', index]);
             }
             else {
